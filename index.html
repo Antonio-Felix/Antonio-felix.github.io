@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Projeto de site utilizando HTML e CSS avançado.">
-    <title>Meu Site Pessoal</title>
+    <title>Portfólio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="manifest.json">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -13,11 +13,10 @@
     <!-- Cabeçalho -->
     <header>
         <nav class="navbar">
-            <h1 class="logo">Meu Site</h1>
+            <h1 class="logo">Meu portfólio</h1>
             <ul class="menu">
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -35,7 +34,7 @@
             <h2>Olá, sou Antônio Félix</h2>
             <p>Desenvolvedor web especializado em criar experiências digitais incríveis com foco em soluções inovadoras.</p>
             <p>Usufruindo das habilidades individuais e coletivas para melhorar e otimizar ideias.</p>
-            <img src="assets/fotoDePerfil.jpg" alt="Foto que retrata o retrato do autor desse site.">
+            <img src="assets/imagens/fotoDePerfil.jpg" alt="Foto que retrata o retrato do autor desse site.">
         </section>
 
         <!-- Projetos -->
@@ -45,7 +44,7 @@
                 
                 <div class="card"> 
                     <h3> Projeto 1 </h3>
-                    <img src="assets/capaBiblioteca.png" alt="Projeto 1">
+                    <img src="assets/imagens/capaBiblioteca.png" alt="Projeto 1">
                     <p>Esse projeto foi desenvolvido para adquirir conhecimento, nos quesitos trabalho em equipe, cooperatividade, dentre outros. No qual o sistema bibliotecário "THE NEW WORLD" busca facilitar o empréstimo e
                         classificação de livros, atendendo ao bibliotecário e leitor. Com isso, uma experiência nova é despertada a cada livro. </p>
                     <a href="https://github.com/Antonio-Felix/THE_NEW_WORLD3" class="btn-link">Ver repositório</a>
@@ -53,37 +52,31 @@
                 
                 <div class="card">
                     <h3>Projeto 2</h3>
-                    <img src="assets/capaTheFive.png" alt="Projeto 2">
-                    <p>Esse projeto foi desenvolvido para adquirir conhecimento, para desenvolvimento de sites de compra. Logo, o projeto é um e-commerce destinado a venda de produtos digitais (com possibilidade de venda de produtos físicos) com plano de afiliação. </p>
+                    <img src="assets/imagens/capaTheFive.png" alt="Projeto 2">
+                    <p>Esse projeto foi desenvolvido para adquirir conhecimento, para desenvolvimento de sites de compra. Logo, o projeto é um e-commerce destinado a venda de produtos digitais (com possibilidade de venda de produtos físicos) com plano de afiliação. (Focado no front-end)</p>
                     <a href="https://github.com/Antonio-Felix/FIVE" class="btn-link">Ver repositório</a>
                 </div>
                 <div class="card">
                     <h3>Projeto 3</h3>
-                    <img src="assets/capaEmAnalise.jpg" alt="Projeto 2">
-                    <p>Esse projeto está sendo desenvolvido para Extensão II, do curso de ADS.Em breve, poderão visualizar algo inovador e cheio de easter eggs. </p>
+                    <img src="assets/imagens/Go+list.png" alt="Projeto 2">
+                    <p>Projeto em grupo de um "To do list", lista de afazeres, utilizando o framework Django, praticando o CRUD, mas não tivemos a insersão do Upgrade</p>
+                    <a href="https://github.com/Antonio-Felix/go-list" class="btn-link">Ver repositório</a>
+                </div>
+                <div class="card">
+                    <h3>Projeto 4</h3>
+                    <img src="assets/imagens/catalogoFilmes.png" alt="Projeto 2">
+                    <p>Projeto em grupo de um "To do list", lista de afazeres, utilizando o framework Django, praticando o CRUD, mas não tivemos a insersão do Upgrade</p>
+                    <a href="https://github.com/Antonio-Felix/django" class="btn-link">Ver repositório</a>
+                </div>
+                <div class="card">
+                    <h3>Projeto 5</h3>
+                    <img src="assets/imagens/capaEmAnalise.jpg" alt="Projeto 2">
+                    <p>Esse projeto está sendo desenvolvido para Extensão II, do curso de ADS. Em breve, poderão visualizar algo inovador e cheio de easter eggs. </p>
                     <a href="#" class="btn-link">Ainda sem acesso</a>
                 </div>
             </div>
         </section>
     </main>
-
-    <!-- Contato -->
-    <section id="contato" class="contato">
-        <h2>Contato</h2>
-        
-        <form action="assets/message.html">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-
-            <button type="submit" class="btn">Enviar</button>
-        </form>
-    </section>
 
     <!-- Rodapé -->
     <footer>
