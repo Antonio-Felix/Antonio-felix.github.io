@@ -1,65 +1,60 @@
-# 🚀 Atividade Prática: Criando um Site Responsivo com HTML & CSS
+# 🌐 Portfólio Pessoal – Antônio Félix
 
-## 📌 **Sobre a Atividade**
-Esta atividade faz parte da disciplina de **Desenvolvimento Web I** no curso de **Análise e Desenvolvimento de Sistemas da UNIFIP**, ministrada pelo professor **José Matheus**.
+Este repositório contém meu portfólio pessoal desenvolvido com HTML e CSS, hospedado via GitHub Pages. O objetivo é apresentar meus projetos, habilidades e trajetória como desenvolvedor web.
 
-O objetivo é que você **modifique, personalize e expanda** o projeto base fornecido, aplicando os conceitos de **HTML semântico, CSS moderno, responsividade e boas práticas**.
-
----
-
-## 📁 **Estrutura do Projeto**
-
-O projeto contém os seguintes arquivos:
+## 📁 Estrutura do Projeto
 
 ```
-📂 meu-site/
- ├── 📄 index.html  → Estrutura principal do site
- ├── 📄 styles.css   → Estilos e layout
- ├── 📄 favicon.ico  → Ícone do site
- ├── 📂 assets/
- │   ├── perfil.jpg  → Imagem de perfil
- │   ├── projetos/   → Imagens dos projetos
- └── 📄 README.md  → Este documento explicativo
+
+Antonio-felix.github.io/
+├── index.html       → Página principal do portfólio
+├── styles.css       → Estilos e layout do site
+├── favicon.ico      → Ícone do site
+├── assets/
+│   ├── imagens/     → Fotos de perfil e capas dos projetos
+│   └── message.html → Página adicional de mensagem
+└── README.md        → Documentação do projeto
 ```
 
+
+
+## 🧩 Funcionalidades
+
+* Layout responsivo e moderno
+* Seções: Sobre e Projetos.
+* Cards interativos com descrição e links para repositórios
+* Botões de navegação para facilitar a experiência do usuário
+
+## 🚀 Como Visualizar
+
+1. Acesse o site diretamente: [antonio-felix.github.io](https://antonio-felix.github.io)
+2. Ou clone o repositório localmente:([Self Hosted Git Service][1])
+
+   ```bash
+   git clone https://github.com/Antonio-Felix/Antonio-felix.github.io.git
+   cd Antonio-felix.github.io
+   open index.html  # ou abra no navegador de sua preferência
+   ```
+
+
+
+## 🛠️ Tecnologias Utilizadas
+
+* HTML5 semântico
+* CSS3 com variáveis, Flexbox e Grid
+* Design responsivo para diferentes dispositivos
+* Integração com GitHub Pages para hospedagem gratuita([Gitea: Git with a cup of tea][2], [GeeksforGeeks][3])
+
+## 📬 Contato
+
+Para sugestões, feedbacks ou oportunidades, entre em contato:
+
+* LinkedIn: [linkedin.com/in/antônio-félix](https://www.linkedin.com/in/ant%C3%B4nio-f%C3%A9lix)
+* Email: [antonio.felix@example.com](mailto:antonio.felix@example.com)
+
 ---
 
-## 🎯 **Objetivos da Atividade**
-
-1️⃣ **Compreender e modificar a estrutura HTML e CSS do projeto.**  
-2️⃣ **Explorar Flexbox e Grid para alterar o layout das seções.**  
-3️⃣ **Criar novos componentes ou seções dentro do site.**  
-4️⃣ **Adicionar personalizações como novas cores, fontes e efeitos interativos.**  
-5️⃣ **Tornar o site ainda mais acessível e responsivo.**  
+Sinta-se à vontade para explorar o código, sugerir melhorias ou adaptar este projeto para suas próprias necessidades!
 
 ---
 
-## 🛠️ **Atividades Propostas**
-
-🔹 **1. Personalizar o Layout**
-   - Altere as cores do site utilizando **variáveis CSS**.
-   - Modifique as fontes para um estilo mais moderno.
-   - Ajuste o espaçamento e alinhamento dos elementos.
-
-🔹 **2. Expandir a Seção de Projetos**
-   - Adicione pelo menos **mais três projetos**, incluindo imagem e descrição.
-   - Utilize **Grid Layout** para organizar os projetos de forma dinâmica.
-
-🔹 **3. Melhorar a Acessibilidade**
-   - Insira **descrições alternativas (`alt`)** em todas as imagens.
-   - Verifique a compatibilidade com leitores de tela.
-   - Teste o contraste das cores utilizando [Contrast Checker](https://webaim.org/resources/contrastchecker/).
-
----
-
-## 📚 **Materiais de Apoio**
-
-🔗 [MDN Web Docs - Flexbox](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)  
-🔗 [MDN Web Docs - Grid Layout](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout)  
-🔗 [Flexbox Froggy - Jogo Interativo](https://flexboxfroggy.com/)  
-🔗 [Grid Garden - Aprenda Grid Brincando](https://cssgridgarden.com/)  
-
----
-
-## 🤝 **Dúvidas?**
-Caso tenha dúvidas, entre em contato pelo **Discord** ou pelo e-mail do professor. Boa prática e divirta-se! 🚀
