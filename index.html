@@ -3,94 +3,320 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projeto de site utilizando HTML e CSS avançado.">
-    <title>Portfólio</title>
+    <meta name="description" content="Portfólio de Antônio Félix - Desenvolvedor Web focado em experiências modernas">
+    <title>Antônio Félix - Desenvolvedor Web</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="manifest" href="manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <!-- Cabeçalho -->
-    <header>
-        <nav class="navbar">
-            <h1 class="logo">Meu portfólio</h1>
-            <ul class="menu">
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Antônio Félix</div>
+        </div>
+    </nav>
 
-    <!-- Seção Principal -->
-    <main>
-        <section class="hero">
-            <h2>Bem-vindo ao Meu Site</h2>
-            <p>Este é um projeto HTML + CSS para prática.</p>
-            <button class="btn"> <a href="assets/message.html">Saiba Mais</a></button>
-        </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content fade-in">
+            <!-- Simplificada URL do placeholder e adicionado fallback visual melhor -->
+            <div class="profile-image-container">
+                <img src="image/fotoDePerfil.jpg" 
+                    alt="Foto de perfil profissional"
+                    class="profile-image">
+            </div>
+            
+            <h1 class="hero-title">
+                Desenvolvedor Web focado em
+                <span class="text-teal">experiências modernas</span>
+            </h1>
+            <p class="hero-subtitle">Estudante do último ano de Análise e Desenvolvimento de Sistemas</p>
+            <p class="hero-description">
+                Desenvolvedor web especializado em criar experiências digitais incríveis com foco em soluções inovadoras. 
+                Usufruindo das habilidades individuais e coletivas para melhorar e otimizar ideias.
+            </p>
+            
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="https://github.com/Antonio-Felix" target="_blank" class="social-btn" aria-label="GitHub">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com/in/antoniofelix980" target="_blank" class="social-btn" aria-label="LinkedIn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="mailto:antonio980felixmedeiros@gmail.com?subject=Oportunidade%20Profissional&body=Olá%20Antônio,%0D%0A%0D%0AGostaria%20de%20conversar%20sobre%20uma%20possível%20oportunidade." class="social-btn" aria-label="Email">
 
-        <!-- Sobre -->
-        <section id="sobre" class="sobre">
-            <h2>Olá, sou Antônio Félix</h2>
-            <p>Desenvolvedor web especializado em criar experiências digitais incríveis com foco em soluções inovadoras.</p>
-            <p>Usufruindo das habilidades individuais e coletivas para melhorar e otimizar ideias.</p>
-            <img src="assets/imagens/fotoDePerfil.jpg" alt="Foto que retrata o retrato do autor desse site.">
-        </section>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
 
-        <!-- Projetos -->
-        <section id="projetos" class="projetos">
-            <h2>Meus Projetos</h2>
-            <div class="grid-container">
-                
-                <div class="card"> 
-                    <h3> Projeto 1 </h3>
-                    <img src="assets/imagens/capaBiblioteca.png" alt="Projeto 1">
-                    <p>Esse projeto foi desenvolvido para adquirir conhecimento, nos quesitos trabalho em equipe, cooperatividade, dentre outros. No qual o sistema bibliotecário "THE NEW WORLD" busca facilitar o empréstimo e
-                        classificação de livros, atendendo ao bibliotecário e leitor. Com isso, uma experiência nova é despertada a cada livro. </p>
-                    <a href="https://github.com/Antonio-Felix/THE_NEW_WORLD3" class="btn-link">Ver repositório</a>
+    <!-- Projects Section -->
+    <section class="section section-gray">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projetos em Destaque</h2>
+                <p class="section-description">
+                    Seleção de trabalhos que demonstram minhas habilidades técnicas e criatividade
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/Go+list.png">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">To do list, cujo nome Go+ list</h3>
+                        <p class="project-description">
+                            Projeto em grupo de um "To do list", lista de afazeres, utilizando o framework Django, praticando o CRUD.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Django</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Bootstrap</span>
+                        </div>
+                        <a href="https://github.com/Antonio-Felix/go-list" class="project-link">
+                            Ver projeto
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-                
-                <div class="card">
-                    <h3>Projeto 2</h3>
-                    <img src="assets/imagens/capaTheFive.png" alt="Projeto 2">
-                    <p>Esse projeto foi desenvolvido para adquirir conhecimento, para desenvolvimento de sites de compra. Logo, o projeto é um e-commerce destinado a venda de produtos digitais (com possibilidade de venda de produtos físicos) com plano de afiliação. (Focado no front-end)</p>
-                    <a href="https://github.com/Antonio-Felix/FIVE" class="btn-link">Ver repositório</a>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/capaTheFive.png">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">e-commerce, THE FIVE</h3>
+                        <p class="project-description">
+                            Esse projeto foi desenvolvido para adquirir conhecimento, para desenvolvimento de sites de compra. Logo, o projeto é um e-commerce destinado a venda de produtos digitais (com possibilidade de venda de produtos físicos) com plano de afiliação. (Focado no front-end)
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">PHP</span>
+                        </div>
+                        <a href="https://github.com/Antonio-Felix/FIVE" class="project-link">
+                            Ver projeto
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Projeto 3</h3>
-                    <img src="assets/imagens/Go+list.png" alt="Projeto 2">
-                    <p>Projeto em grupo de um "To do list", lista de afazeres, utilizando o framework Django, praticando o CRUD, mas não tivemos a insersão do Upgrade</p>
-                    <a href="https://github.com/Antonio-Felix/go-list" class="btn-link">Ver repositório</a>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/capaBiblioteca.png">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema bibliotecário</h3>
+                        <p class="project-description">
+                        Esse projeto foi desenvolvido para adquirir conhecimento, nos quesitos trabalho em equipe, cooperatividade, dentre outros. No qual o sistema bibliotecário "THE NEW WORLD" busca facilitar o empréstimo e classificação de livros, atendendo ao bibliotecário e leitor. Com isso, uma experiência nova é despertada a cada livro.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <a href="https://github.com/Antonio-Felix/THE_NEW_WORLD3" class="project-link">
+                            Ver projeto
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Projeto 4</h3>
-                    <img src="assets/imagens/catalogoFilmes.png" alt="Projeto 2">
-                    <p>Projeto em grupo de um "To do list", lista de afazeres, utilizando o framework Django, praticando o CRUD, mas não tivemos a insersão do Upgrade</p>
-                    <a href="https://github.com/Antonio-Felix/django" class="btn-link">Ver repositório</a>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/patosQuest.png">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Patos Quest</h3>
+                        <p class="project-description">
+                            Jogo criado para incentivar a inclusão, pensado para o ambito educacional, logo se caracteriza como um RPG educacional que combina aventura, acessibilidade e representatividade em uma jornada emocionante pela cidade de Patos. Que está sendo produzido na matéria de extensão do curso de Análise e Desenvolvimento de Sistemas, na UNIFIP, campus Patos, por um grupo de alunos, no qual, também estou envolvido.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">GDScript</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">
+                            Ver projeto
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Projeto 5</h3>
-                    <img src="assets/imagens/capaEmAnalise.jpg" alt="Projeto 2">
-                    <p>Esse projeto está sendo desenvolvido para Extensão II, do curso de ADS. Em breve, poderão visualizar algo inovador e cheio de easter eggs. </p>
-                    <a href="#" class="btn-link">Ainda sem acesso</a>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/geradorDeSenhas.png">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Gerador de senhas</h3>
+                        <p class="project-description">
+                        Uma aplicação desenvolvida com o objetivo de gerar senhas aleatórias de forma segura e eficiente. O projeto foi iniciado em sala de aula e posteriormente aprimorado de forma independente, com ajustes e melhorias voltadas ao aprendizado e aprofundamento no desenvolvimento de aplicações mobile utilizando React Native.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React-native</span>
+                            <span class="tag">Expo</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Antonio-Felix/GeradorDeSenhas" class="project-link">
+                            Ver projeto
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/chronos.png">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema para treinos, dietas e metas</h3>
+                        <p class="project-description">
+                        Aplicação desenvolvida para organizar a rotina da academia, integrando Personal Trainer, Nutricionista e Aluno. Permite a criação de treinos personalizados, definição de dietas com metas diárias de calorias e consumo de água, além de oferecer ao aluno um painel simples para acompanhamento diário de atividades e progresso.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Mongo DB</span>
+                            <span class="tag">HeroUI (NextUI) & Tailwind CSS</span>
+                        </div>
+                        <a href="https://chronos-web-next.vercel.app" class="project-link">
+                            Ver projeto
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="icon-badge">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                </div>
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <p class="section-description">
+                    Tecnologias e ferramentas que utilizo para criar soluções web modernas
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-tag">React</div>
+                <div class="skill-tag">Next.js</div>
+                <div class="skill-tag">JavaScript</div>
+                <div class="skill-tag">TypeScript</div>
+                <div class="skill-tag">HTML5 & CSS3</div>
+                <div class="skill-tag">Tailwind CSS</div>
+                <div class="skill-tag">Mongo DB</div>
+                <div class="skill-tag">MySQL</div>
+                <div class="skill-tag">Git & GitHub</div>
+                <div class="skill-tag">Java</div>
+                <div class="skill-tag">PHP</div>
+                <div class="skill-tag">Python</div>
+                <div class="skill-tag">Django</div>
+                <div class="skill-tag">RESTful APIs</div>
+                <div class="skill-tag">Responsive Design</div>
+                <div class="skill-tag">UI/UX Principles</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soft Skills Section -->
+    <section class="section section-gray">
+        <div class="container">
+            <div class="section-header">
+                <div class="icon-badge">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                </div>
+                <h2 class="section-title">Soft Skills</h2>
+                <p class="section-description">
+                    Competências comportamentais que complementam minha expertise técnica
+                </p>
+            </div>
+
+            <div class="soft-skills-grid">
+                <div class="soft-skill-card">
+                    <h3 class="soft-skill-title">Comunicação</h3>
+                    <p class="soft-skill-description">Clara e objetiva, facilitando colaboração em equipe</p>
+                </div>
+                <div class="soft-skill-card">
+                    <h3 class="soft-skill-title">Trabalho em Equipe</h3>
+                    <p class="soft-skill-description">Experiência em projetos colaborativos e metodologias ágeis</p>
+                </div>
+                <div class="soft-skill-card">
+                    <h3 class="soft-skill-title">Proatividade</h3>
+                    <p class="soft-skill-description">Busco constantemente aprender e melhorar processos</p>
+                </div>
+                <div class="soft-skill-card">
+                    <h3 class="soft-skill-title">Resolução de Problemas</h3>
+                    <p class="soft-skill-description">Abordagem analítica para encontrar soluções eficientes</p>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 Antônio Félix. Desenvolvido com HTML, CSS e JavaScript.</p>
+        </div>
     </footer>
 
-    <!-- Plugin VLibras para acessibilidade -->
-    <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-            <div class="vw-plugin-top-wrapper"></div>
-        </div>
-    </div>
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>new window.VLibras.Widget();</script>
+    <script src="script.js"></script>
 </body>
 </html>
