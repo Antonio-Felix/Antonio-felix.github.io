@@ -5,7 +5,6 @@ Este repositório contém meu portfólio pessoal desenvolvido com HTML e CSS, ho
 ## 🧩 Funcionalidades
 
 * Layout responsivo e moderno
-* Seções: Sobre e Projetos.
 * Cards interativos com descrição e links para repositórios
 * Botões de navegação para facilitar a experiência do usuário
 
@@ -33,12 +32,6 @@ Este repositório contém meu portfólio pessoal desenvolvido com HTML e CSS, ho
 
 Para sugestões, feedbacks ou oportunidades, entre em contato:
 
-* LinkedIn: [linkedin.com/in/antônio-félix](https://www.linkedin.com/in/ant%C3%B4nio-f%C3%A9lix)
-* Email: [antonio.felix@example.com](mailto:antonio.felix@example.com)
-
----
-
-Sinta-se à vontade para explorar o código, sugerir melhorias ou adaptar este projeto para suas próprias necessidades!
-
----
+* LinkedIn: [linkedin.com/in/antoniofelix980](https://linkedin.com/in/antoniofelix980)
+* Email: [antonio980felixmedeiros@gmail.com](mailto:antonio980felixmedeiros@gmail.com)
 
