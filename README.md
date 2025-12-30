@@ -2,22 +2,6 @@
 
 Este repositório contém meu portfólio pessoal desenvolvido com HTML e CSS, hospedado via GitHub Pages. O objetivo é apresentar meus projetos, habilidades e trajetória como desenvolvedor web.
 
-## 📁 Estrutura do Projeto
-
-```
-
-Antonio-felix.github.io/
-├── index.html       → Página principal do portfólio
-├── styles.css       → Estilos e layout do site
-├── favicon.ico      → Ícone do site
-├── assets/
-│   ├── imagens/     → Fotos de perfil e capas dos projetos
-│   └── message.html → Página adicional de mensagem
-└── README.md        → Documentação do projeto
-```
-
-
-
 ## 🧩 Funcionalidades
 
 * Layout responsivo e moderno
